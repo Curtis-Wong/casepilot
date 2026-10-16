@@ -407,6 +407,7 @@ export default function Workspace() {
 
     setReadingLoading(true)
     setReadingError(null)
+    const answer = answer || '';
     setLastReadingAnswer(answer)
     try {
       if (indexState !== 'ready') {
