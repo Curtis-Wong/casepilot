@@ -19,7 +19,7 @@ export default defineConfig(() => ({
   // is portable when deployed to the site root (e.g., Vercel).
   // If you need to host under a subpath, set a custom value here or
   // use an environment-specific override.
-  base: '/',
+  base: '/casepilot',
   server: {
     port: 5174,
     strictPort: true,
