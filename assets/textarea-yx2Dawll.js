@@ -1,1 +1,0 @@
-import{R as s,j as t}from"./index-BzAaRk2I.js";const o=s.forwardRef(({className:e="",...a},r)=>t.jsx("textarea",{ref:r,className:`w-full rounded-md border px-3 py-2 text-sm resize-vertical ${e}`,...a}));o.displayName="Textarea";export{o as T};

@@ -1,0 +1,1 @@
+import{R as o,j as d}from"./index-ub5cBSXo.js";const t=o.forwardRef(({className:s="",...r},a)=>{const e=`bg-white rounded-lg border border-slate-200 shadow-lg ${s}`;return d.jsx("div",{ref:a,className:e,...r})});t.displayName="Card";export{t as C};
