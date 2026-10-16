@@ -128,7 +128,7 @@ public static class ServiceCollectionExtensions
         services.AddCors(options =>
         {
             options.AddPolicy("FrontendDev", p => p
-                .WithOrigins("http://localhost:5174", "http://localhost:3000", "http://localhost:4173", "https://ai-case-learning-assistant.vercel.app", "https://ai-case-learning-assistant-rku540uom.vercel.app")
+                .WithOrigins("http://localhost:5174", "http://localhost:3000", "http://localhost:4173", "https://ai-case-learning-assistant.vercel.app", "https://ai-case-learning-assistant-rku540uom.vercel.app", "https://curtis-wong.github.io")
                 .AllowAnyHeader()
                 .AllowAnyMethod()
                 .AllowCredentials());
