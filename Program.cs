@@ -132,6 +132,8 @@ var app = builder.Build();
 app.UseAppPipeline();
 app.UseDefaultFiles();
 app.UseStaticFiles();
+app.UseHttpsRedirection();
+app.UseCors("FrontendDev");
 
 if (app.Environment.IsDevelopment())
 {
